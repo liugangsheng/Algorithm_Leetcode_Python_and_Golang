@@ -1,3 +1,4 @@
+# encoding=utf8
 """通过list.index()方法"""
 class Solution:
     def twoSum(self, nums, target):
@@ -21,7 +22,7 @@ class Solution:
             # 抛出的异常利用 try except来承接
             except:
                 continue
-1
+
 if __name__ == '__main__':
     nums = [2, 5, 5, 11]
     target = 10
